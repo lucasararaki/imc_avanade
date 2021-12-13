@@ -163,6 +163,7 @@
                     android:valueTo="200"/>
 
                 <TextView
+                    android:id="@+id/novo_usuario_peso_kg"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -181,6 +182,7 @@
                 android:layout_marginBottom="12dp"/>
 
             <Spinner
+                android:id="@+id/novo_usuario_activity_level"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp"
@@ -199,12 +201,14 @@
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/novo_usuario_radio_fem"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
                     android:text="Feminino"/>
 
                 <RadioButton
+                    android:id="@+id/novo_usuario_radio_masc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Masculino"/>
